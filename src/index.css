@@ -12,7 +12,7 @@
   margin: auto;
 }
 .appbar{
-  background-color: aqua;
+  background-color: crimson;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -20,15 +20,13 @@
 }
 .appbar span{
   font-size: 25px;
-  font-weight: 700px;
-  color: white;
-
+  font-weight: 700;
+  color: whitesmoke;
 }
 .nav-link >a{
-  margin: 10px;
-  text-decoration: none;
-  color: white;
-
+   margin: 10px;
+   text-decoration: none;
+   color: white;
 }
 .appbar > a:hover{
   text-decoration: underline;

@@ -4,39 +4,24 @@ import withLayout from './withLayout'
 function About() {
   return (
     <div>
-    <h1>WELCOME TO MY ABOUT SECTION</h1>
+    <h1>About Me</h1>
     <div>
-    <p>Welcome to Elderly Instruments,
-     your favorite family-owned and
-      operated music store in Lansing,
-       Michigan. We carry a wide variety
-        of new, used & vintage instruments 
-        and have been shipping them world-wide
-         since 1975. Whether you are looking for
-         the latest guitar, a vintage mandolin,
-          a used banjo, or accessories for all 
-          of the above, we have you covered. Recent
-           Arrivals. We have the new, used ...</p>
-
-
-    <p>Welcome to Elderly Instruments, your favorite family-owned
-     and operated music store in Lansing, Michigan. We carry a wide
-      variety of new, used & vintage instruments and have been
-       shipping them world-wide since 1975. Whether you are
-        looking for the latest guitar, a vintage mandolin,
-         a used banjo, or accessories for all of the above, we have
-          you covered. Recent Arrivals. We have the new, used ...</p>
-
-
-    <p>Welcome to Elderly Instruments, your favorite family-owned
-     and operated music store in Lansing, Michigan. We carry a wide 
-     variety of new, used & vintage instruments and have been shipping 
-     them world-wide since 1975. Whether you are looking for the latest
-      guitar, a vintage mandolin, a used banjo, or accessories for all of
-       the above, we have you covered. Recent Arrivals. We have the
-        new, used ...</p>
-
+    <p>A home, or domicile, is a space used as a permanent or semi-permanent 
+    residence for one or many humans. It is a fully or
+     semi sheltered space and can have both interior and
+      exterior aspects to it. Homes provide sheltered spaces for instance rooms, where domestic activity can be performed such as sleeping, preparing food, eating and hygiene as well as providing spaces for work and leisure such as remote working, studying and playing.</p>
+    
+     <p>A home, or domicile, is a space used as a
+      permanent or semi-permanent residence for one or 
+      many humans. It is a fully or semi sheltered space and can have both interior and exterior aspects to it. Homes provide sheltered spaces for instance rooms, where domestic activity can be performed such as sleeping, preparing food, eating and hygiene as well as providing spaces for work and 
+     leisure such as remote working, studying and playing.</p>
+    
+     <p>A home, or domicile, is a space used as a permanent or semi-permanent
+      residence for one or many humans. It is a fully or semi sheltered space 
+      and can have both interior and exterior aspects to it. Homes provide sheltered spaces for instance rooms, where domestic activity can be performed such as sleeping, preparing food, eating and hygiene as well as providing spaces
+      for work and leisure such as remote working, studying and playing.</p>
     </div>
+    
     </div>
   )
 }
