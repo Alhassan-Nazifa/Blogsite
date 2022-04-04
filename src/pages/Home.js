@@ -1,27 +1,24 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import withLayout from './withLayout'
 
 function Home() {
+  const navigate=useNavigate()
   return (
     <div>
-    <h1>Welcome to my HomePage</h1>
-    <div>
-    <p>A home, or domicile, is a space used as a permanent or semi-permanent 
-    residence for one or many humans. It is a fully or
-     semi sheltered space and can have both interior and
-      exterior aspects to it. Homes provide sheltered spaces for instance rooms, where domestic activity can be performed such as sleeping, preparing food, eating and hygiene as well as providing spaces for work and leisure such as remote working, studying and playing.</p>
-    
-     <p>A home, or domicile, is a space used as a
-      permanent or semi-permanent residence for one or 
-      many humans. It is a fully or semi sheltered space and can have both interior and exterior aspects to it. Homes provide sheltered spaces for instance rooms, where domestic activity can be performed such as sleeping, preparing food, eating and hygiene as well as providing spaces for work and 
-     leisure such as remote working, studying and playing.</p>
-    
-     <p>A home, or domicile, is a space used as a permanent or semi-permanent
-      residence for one or many humans. It is a fully or semi sheltered space 
-      and can have both interior and exterior aspects to it. Homes provide sheltered spaces for instance rooms, where domestic activity can be performed such as sleeping, preparing food, eating and hygiene as well as providing spaces
-      for work and leisure such as remote working, studying and playing.</p>
+    <div className='banner'>
+    <h1>Welcom to my Webpage</h1>
+    <p>this is a webpage about my self.
+     I love programming and I am willing to teach anyone who wishes to learn </p>
+     <div className='action-wrap'>
+     <button className='btn-outline' onClick={()=>navigate("./about")}>About Me</button>
+     <button className='btn-contain' onClick={()=>navigate("./blog")}>Read Blogs</button>
+
+
+     
+     </div>
+
     </div>
-    
     </div>
   )
 }

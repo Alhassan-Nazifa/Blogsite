@@ -49,4 +49,4 @@ function withLayout(Component) {
   return Layout
 }
 
-export default withLayout
+export default withLayout;
